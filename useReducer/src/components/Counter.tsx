@@ -17,8 +17,7 @@ const initialState = 0
 function Counter() {
 //   const [count, setCount] = useState(0)
      const [count, dispatch] = useReducer(reducer, initialState)
-     const [count2, dispatch2] = useReducer(reducer, initialState)
-
+     
 
  
   return (
