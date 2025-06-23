@@ -18,8 +18,6 @@ function Counter() {
 //   const [count, setCount] = useState(0)
      const [count, dispatch] = useReducer(reducer, initialState)
      
-
- 
   return (
     <div>
       <h1>Counter</h1>
